@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <title>Doe vidas</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>A sua doação importa muito!</h1>
+        <img class="logo" src="logo.png" alt="imagem de DOE">
+      <h2>A sua doação importa muito!</h1>
       <p>Até três vidas com uma doação.</p>
       <p>Mais de 38.000 doações são necessárias diariamente.</p>
       <button>Quero ajudar!</button>
     </header>
 
-    <section class="form">
+    <section class="form hide">
       <h2>Entre na lista de doadores!</h2>
       <form action="/" method="/">
         <input type="text" name="name" placeholder="João da Silva" />
@@ -25,7 +31,7 @@
     </section>
 
     <main>
-      <h2>Últimos doadores</h2>
+      <h2>Últimos <span>doadores</span></h2>
       <section class="donors">
         <div class="donor">
           <div class="bloodType">AB+</div>
@@ -46,5 +52,6 @@
       </section>
     </main>
     <footer>Com 💖 eopit.</footer>
+    <script src="scripts.js"></script>
   </body>
 </html>
